@@ -86,3 +86,7 @@ a{
   font-family: 'Gill Sans', 'Gill Sans MT';
   font-weight: bold;
 }
+
+video{
+  width: 90%;
+}
