@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-msedge",
+            "type": "msedge",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "d:\\site-1\\index.html"
+            "name": "Launch Edge against localhost",
+            "url": "D:\\Темино\\site-1\\index.html",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }

@@ -1,0 +1,140 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-color: black;
+    padding: 0px;
+    margin: 0%;
+    color: aliceblue;
+    background-image: url('background.jpg');
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url('background.jpg');
+}
+
+.side_menu{
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    background-color: dimgray;
+    margin: 0%;
+    z-index: 1;
+    top: 0;
+}
+
+.side_menu_a{
+    width: 14%;
+    font-size: xx-large;
+    color: black;
+    text-decoration: none;
+    margin-left: 1%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    border:2px solid rgb(50, 50, 50);
+    border-radius:6px;
+    cursor: grab;
+}
+
+.invisible{
+    color: black;
+    background-color: black;
+    font-size: xx-small;
+    background-position: 5%;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.margind{
+    margin-left: 16%;
+}
+
+label{
+    color: crimson;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+div{
+    font-size: x-large;
+}
+
+.subtext{
+    font-size: smaller;
+    color: grey;
+}
+
+button{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    background-color: crimson;
+    border-radius: 15%;
+}
+
+button:hover{
+    box-shadow: 0 0 0 4px #cbd6ee;
+    background-color: rgb(0, 100, 2);
+    color: #000d55;
+}
+
+.sub_password{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    background-color: crimson;
+    border-radius: 15%;
+}
+
+.sub_password:hover{
+    box-shadow: 0 0 0 4px #cbd6ee;
+    background-color: rgb(0, 100, 2);
+    color: #000d55;
+}
+
+.icon{
+    width: 20%;
+    border-radius: 15%;
+    margin-top: 1%;
+}
+
+.account_name{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.news{
+    border-radius: 5%;
+    border-color: white;
+    background-color: #cbd6ee;
+    color: rgb(0, 0, 0);
+    max-width: 80%;
+    min-width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.newstext{
+    font-family: 'Alumni Sans Pinstripe';
+    font-weight: bolder;
+    margin-left: 1%;
+}
+
+.high_news_text{
+    font-family: 'Alumni Sans Pinstripe';
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 5%;
+}
+
+img{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    width: 90%;
+    border-radius: 3%;
+}
